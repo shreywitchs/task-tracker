@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Task Tracker — a simple, fast, and persistent to-do list that saves tasks in your browser.">
+  <title>Task Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="main-card">
+    <header class="main-header">
+      <h1>Task Tracker</h1>
+      <p class="subtitle">Stay organized. Get things done.</p>
+    </header>
+    <form id="task-form" autocomplete="off">
+      <input
+        type="text"
+        id="task-input"
+        placeholder="Add a new task..."
+        aria-label="New task input"
+        required
+      >
+      <button type="submit" id="add-btn" title="Add Task" aria-label="Add task">+</button>
+    </form>
+    <ul id="task-list" role="list"></ul>
+    <p id="empty-msg" aria-live="polite">No tasks yet — add one above! 🎯</p>
+  </main>
+  <footer class="footer">
+    <span>Made with VS Code | All Rights Reserved © 2026</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

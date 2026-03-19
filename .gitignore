@@ -1,0 +1,17 @@
+# OS & editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Node (in case dependencies are added later)
+node_modules/
